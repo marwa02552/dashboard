@@ -12,6 +12,7 @@ import Order from './pages/order/order';
 import OrderDetail from './pages/order/orderDetail/orderDetail';
 import CreateOrder from './pages/order/createProduct/createOrder';
 import Product from './pages/product/product';
+import CreateProduct from './pages/product/createProduct/createProduct';
 
         
 function App() {
@@ -25,6 +26,8 @@ function App() {
         <Route path='/order/create' element={(<CreateOrder/>)}></Route>
 
         <Route path='/product' element={(<Product/>)}></Route>
+        <Route path='/product/createProduct' element={(<CreateProduct/>)}></Route>
+
 
       </Routes>
       </BrowserRouter>

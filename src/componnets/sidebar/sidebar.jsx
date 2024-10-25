@@ -3,7 +3,7 @@ import SidebarData from "../../const/sidebarData";
 import { Link } from "react-router-dom";
 export default function Sidebar() {
   return (
-    <div className="fixed top-0 left-0 w-[270px] bg-white pt-[25px]  h-screen md:overflow-hidden overflow-auto md:hover:overflow-auto z-[3]  ">
+    <div className="fixed top-0 left-0 w-[270px] bg-white pt-[25px]  h-screen md:overflow-hidden overflow-auto md:hover:overflow-auto z-[3]  border bordr-r-[1px] ">
       <div className="flex justify-between px-[25px] pb-[20px] items-center">
         <div>
           <i className="pi pi-shop" style={{ fontSize: "1.5rem",color:"#334155"  }}></i>

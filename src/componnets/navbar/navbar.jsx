@@ -39,7 +39,7 @@ export default function Navbar() {
   }, [dropdownRef]);
 
   return (
-    <div className="fixed top-0 right-0 left-[0px] z-[1] pl-[290px] pr-[40px] bg-white py-[10px] flex justify-between items-center ">
+    <div className="fixed top-0 right-0 left-[0px] z-[1] pl-[290px] pr-[40px] bg-white py-[10px] flex justify-between items-center border border-b-[1px] ">
       <div className="flex items-center">
         <NavLink to="/">
           <FiMenu className="text-[22px] mx-2" style={{ color: "#334155" }} />

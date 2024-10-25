@@ -57,6 +57,16 @@ const countries = [
 const paymentType=[
     "Bank Transfer","Paypal","Credit/Debit Card"
 ]
+const Category=[
+    "T-Shirts",
+    "Jeans",
+    "Jackets",
+    "Shoes"
+]
+const tag=[
+    "trend",
+    "unisex"
+]
 
-const InputData={countryCodes,countries,paymentType}
+const InputData={countryCodes,countries,paymentType,tag,Category}
 export default  InputData
